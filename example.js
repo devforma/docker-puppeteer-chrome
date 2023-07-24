@@ -43,4 +43,5 @@ const main = async () => {
 };
 
 
+// docker run --rm -v ./pt.js:/app/pt.js -v .:/trace devforma/puppeteer:20.9.0-with-kafkajs node pt.js
 main()
